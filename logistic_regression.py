@@ -26,7 +26,7 @@ y = ad_data['Clicked on Ad']
 # Spliting datasets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=42)
 
-# Training and fitting a logistic regression model on the training set
+# Training and fitting a model on the training set
 from sklearn.linear_model import LogisticRegression
 
 logmodel = LogisticRegression()
